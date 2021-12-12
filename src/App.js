@@ -11,6 +11,8 @@ import {
   Redirect,
 } from 'react-router-dom';
 
+// dummy comment
+
 import { makeStyles, createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
