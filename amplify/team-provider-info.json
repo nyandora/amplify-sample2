@@ -28,5 +28,62 @@
         }
       }
     }
+  },
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-boyaki-staging-90305-authRole",
+      "UnauthRoleArn": "arn:aws:iam::150663672265:role/amplify-boyaki-staging-90305-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::150663672265:role/amplify-boyaki-staging-90305-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-boyaki-staging-90305-deployment",
+      "UnauthRoleName": "amplify-boyaki-staging-90305-unauthRole",
+      "StackName": "amplify-boyaki-staging-90305",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:150663672265:stack/amplify-boyaki-staging-90305/e262ad40-5ade-11ec-bb6d-0696733e6b2f",
+      "AmplifyAppId": "d25rhepqzcbqw7"
+    },
+    "categories": {
+      "auth": {
+        "boyaki652c7c9a": {}
+      },
+      "function": {
+        "createPostAndTimeline": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d25rhepqzcbqw7",
+          "type": "cicd"
+        }
+      }
+    }
+  },
+  "design": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-boyaki-design-115539-authRole",
+      "UnauthRoleArn": "arn:aws:iam::150663672265:role/amplify-boyaki-design-115539-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::150663672265:role/amplify-boyaki-design-115539-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-boyaki-design-115539-deployment",
+      "UnauthRoleName": "amplify-boyaki-design-115539-unauthRole",
+      "StackName": "amplify-boyaki-design-115539",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:150663672265:stack/amplify-boyaki-design-115539/fda36000-5af6-11ec-b33b-0a66ff8856b7",
+      "AmplifyAppId": "d25rhepqzcbqw7"
+    },
+    "categories": {
+      "auth": {
+        "boyaki652c7c9a": {}
+      },
+      "function": {
+        "createPostAndTimeline": {
+          "deploymentBucketName": "amplify-boyaki-design-115539-deployment",
+          "s3Key": "amplify-builds/createPostAndTimeline-6f47385562373471394f-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d25rhepqzcbqw7",
+          "type": "cicd"
+        }
+      }
+    }
   }
 }
